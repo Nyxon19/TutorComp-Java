@@ -15,8 +15,7 @@ class Inventory{
         //this.inventoryStorage = inventoryStorage;
         inventory1 = new String[inventoryStorage];
     }
-    //inventory[0] = itemName;
-    int b = 1;
+    int b =1;
     
     public void calculateTotalValue(){
         double a = quantity*pricePerUnit;
@@ -37,9 +36,13 @@ class Inventory{
 }
 public class DayTwentyFourHW {
     public static void main(String[] args) {
-        Inventory i1 = new Inventory("39298849283", "Food", 3.5, 50, 50);
+        Inventory i1 = new Inventory("39298849283", "Food", 3.5, 3, 3);
+        // Inventory i2 = new Inventory("12345", "Bags", 3.5, 50, 50);
         i1.calculateTotalValue();
         i1.addObject();
         i1.seeInventory();
+        // i2.calculateTotalValue();
+        // i2.addObject();
+        // i2.seeInventory();
     }
 }

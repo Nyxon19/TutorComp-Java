@@ -11,8 +11,6 @@ public class Dog {
         color = col;
         name = nam;
     }
-
-    
     void print(){
         System.out.println("Color of dog --> " + color);
         System.out.println("Color of dog --> " + name);

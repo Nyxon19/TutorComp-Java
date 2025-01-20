@@ -133,6 +133,6 @@ public class DayTwentyFourHW {
                 default:
                     System.out.println("Sorry, thats not a valid option - Try again.");
             }
-        }while(a!=5);
+        }while(a!=7);
     }
 }
